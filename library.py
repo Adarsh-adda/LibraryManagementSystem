@@ -31,9 +31,8 @@ class Student:
          
 
 if __name__ == "__main__":
-    centraLibrary = Library(["Algorithms", "Django", "Clrs", "Python Notes"])
+    centraLibrary = Library(["RestApi", "Django", "Clrs", "Python"])
     student = Student()
-    # centraLibrary.displayAvailableBooks()
     while(True):
         welcomeMsg = '''\n ====== Welcome to Central Library ======
         Please choose an option:
